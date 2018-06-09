@@ -60,13 +60,13 @@ var (
 		Ethash:              new(EthashConfig),
 	}
 
-	TOUMinerReward, _    = new(big.Int).SetString("10000000000000000000", 10)
-	TOUTreasuryReward, _ = new(big.Int).SetString("2000000000000000000", 10)
-	TOUStakeReward, _    = new(big.Int).SetString("100000000000000000", 10)
+	TOUMinerReward, _    = new(big.Int).SetString("3000000000000000000", 10)
+	TOUTreasuryReward, _ = new(big.Int).SetString("1000000000000000000", 10)
+	TOUStakeReward, _    = new(big.Int).SetString("30000000000000000", 10)
 
 	// TouristCoinMainnetChainConfig contains the chain parameters to run a node on the TouristCoin Main network.
 	TouristCoinMainnetChainConfig = &ChainConfig{
-		ChainId:                 big.NewInt(666999),
+		ChainId:                 big.NewInt(777000),
 		HomesteadBlock:          big.NewInt(0),
 		DAOForkBlock:            nil,
 		DAOForkSupport:          false,
