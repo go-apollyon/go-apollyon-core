@@ -54,7 +54,7 @@ var DiscoveryV5Bootnodes = []string{
 }
 
 var TouristCoinMainnetBootnodes = []string{
-	"enode://75abd0dfe54f953b5bc75c304aaf1058e387df0bff91b80705540fb7917190c4025d13abee2f5b749b511702bcce9d33a319a4ed3b022862e90bd46f58bdd1af@95.179.143.125:30303",
+	"enode://364c4033cc4dfebbed573cc9b24a287d77f0ed54db9738e9a4aee0fdf7866d923f723b9507dede7309e352ad51a6523d70771a8821d5e3210b49add90df31607@95.179.143.125:30303",
 }
 
 
